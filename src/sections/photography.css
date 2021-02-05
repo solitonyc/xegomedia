@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,900&display=swap');
+
+.photography_section {    
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.photography_section_background {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;  
+}
+.photography_content_container {
+    margin: 0 auto;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    /* height: 80vh; */
+    /* max-width: 1200px; */
+    width: 80vw;
+    background-color: rgba(0,0,0,.7);
+    padding: 3em 1.6em 0;
+}
+.photography_headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 6em;
+    color: rgb(255,255,255);
+    letter-spacing: .25rem;
+    line-height: 1em;
+    margin: .25em 0;
+    text-shadow: rgba(0,0,0,1) .04em .04em;
+}
+.photography_headline_2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    color: rgb(255,255,255);
+    letter-spacing: .25rem;
+    line-height: .5em;
+    margin: .15em 0;
+    text-shadow: rgba(0,0,0,1) .04em .04em;
+}
+.photography_copy {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    letter-spacing: .05em;
+    color: rgb(255,255,255);
+    /* letter-spacing: .08rem; */
+    line-height: 1.3em;
+    margin: 1.5em 0 0;
+    text-shadow: rgba(0,0,0,1) .05em .05em;
+    max-width: 16em;
+    text-align: center;
+}
+.photography_button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    font-weight: 800;
+    /* background-color: rgb(76, 210, 219); */
+    background-image: linear-gradient(#13c1df, #0f3381);
+    border-radius: 1em;
+    border: 1px rgb(0,0,0) solid;
+    color: rgb(255,255,255);
+    transition: all 0.3s;
+    margin: 1.75em 0;
+    line-height: 3;
+    text-decoration: none;
+    text-align: center;
+    width: 14em;
+    
+}
+.photography_button:hover {
+    background:rgb(255,255,255);
+    color: rgb(0,0,0); 
+    cursor: pointer;
+}
+.photography_big_logo {
+    width: 60vw;
+}
