@@ -1,7 +1,7 @@
 import './footer.css';
 import React, { Component } from 'react';
 import {Link, animateScroll as scroll } from "react-scroll";
-import logo from './images-sections/xm-logo-lrg.png';
+import logo from './images-sections/logo.png';
 
 export default class Footer extends Component {
     scrollToTop = () => {

@@ -31,11 +31,9 @@
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-    /* height: 80vh; */
-    /* max-width: 1200px; */
     width: 80vw;
     background-color: rgba(0,0,0,.7);
-    padding: 3em 1.6em 0;
+    padding: 3em;
 }
 .main_headline {
     font-family: 'Playfair Display', serif;
@@ -45,18 +43,20 @@
     line-height: 1em;
     margin: .25em 0;
     text-shadow: rgba(0,0,0,1) .04em .04em;
+    text-align: center;
 }
 .main_headline_2 {
     font-family: 'Playfair Display', serif;
     font-size: 3em;
     color: rgb(255,255,255);
     letter-spacing: .25rem;
-    line-height: .5em;
+    line-height: 1em;
     margin: .15em 0;
     text-shadow: rgba(0,0,0,1) .04em .04em;
+    text-align: center;
 }
 .main_copy {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     letter-spacing: .05em;
     color: rgb(255,255,255);
@@ -89,6 +89,6 @@
     color: rgb(0,0,0); 
     cursor: pointer;
 }
-.main_big_logo {
-    width: 60vw;
+.main_logo {
+    width: 40rem;
 }
