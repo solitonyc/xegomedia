@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link, animateScroll as scroll } from 'react-scroll';
-import logo from './images-navbar/xm-logo-lrg.png';
+import logo from './images-navbar/xmlogo-sm.png';
 import './navigation.css';
 
 export default class Navigation extends Component {
@@ -22,7 +22,7 @@ export default class Navigation extends Component {
                     to="main"
                     spy={true}
                     smooth={true}
-                    offset={-0}
+                    offset={-40}
                     duration={500}
                     >MAIN</Link>
                 
@@ -32,7 +32,7 @@ export default class Navigation extends Component {
                     to="video"
                     spy={true}
                     smooth={true}
-                    offset={-0}
+                    offset={-38}
                     duration={500}
                     >VIDEO</Link>
                 
@@ -42,7 +42,7 @@ export default class Navigation extends Component {
                     to="photography"
                     spy={true}
                     smooth={true}
-                    offset={-0}
+                    offset={-38}
                     duration={500}
                     >PHOTOGRAPHY</Link>
                 
@@ -52,7 +52,7 @@ export default class Navigation extends Component {
                     to="webdevelopment"
                     spy={true}
                     smooth={true}
-                    offset={-0}
+                    offset={-38}
                     duration={500}
                     >WEB DEVELOPMENT</Link>
 
@@ -62,7 +62,7 @@ export default class Navigation extends Component {
                     to="branding"
                     spy={true}
                     smooth={true}
-                    offset={-0}
+                    offset={-38}
                     duration={500}
                     >BRANDING</Link>
 
