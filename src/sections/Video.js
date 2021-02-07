@@ -10,8 +10,9 @@ export default class Video extends Component {
                         <source src={backgroundVideo} type='video/mp4' />                                           
                 </video>
                 <div className='video_section_layover' >           
-                        <div className='video_headline'>WE'LL ELEVATE YOUR STORY</div> 
-                        <div className='video_copy'>If a picture says a 1,000 words, <br />video elevates the story. </div>  
+                    <div className='video_headline'>VIDEO</div> 
+                    <div className='video_headline_2'>Will Elevate Your Story</div> 
+                    <div className='video_copy'>If a picture says a 1,000 words, <br />video elevates the story. </div>  
                 </div>
             </div>
         )
