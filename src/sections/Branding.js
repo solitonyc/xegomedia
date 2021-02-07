@@ -13,8 +13,8 @@ export default class Branding extends Component {
                 <div style={style} className='branding_section_background' >
                     <div className='branding_content_container'>
                         <img className='branding_logo' alt='' src={bigLogo} />  
-                        <div className='branding_headline'>BRANDING SECTION HEADLINE</div>
-                        <div className='branding_headline_2'>This is the secondary headline</div>
+                        <div className='branding_headline'>Branding</div>
+                        <div className='branding_headline_2'>CULTIVATE IMPRESSIONS EFFECTIVELY</div>
                         <div className='branding_copy'>Main copy liquip commodo consectetur nisi esse nulla irure duis laboris.</div>
                     </div>
                 </div>
