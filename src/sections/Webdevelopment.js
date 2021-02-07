@@ -13,8 +13,8 @@ export default class Webdevelopment extends Component {
                 <div style={style} className='webdev_section_background' >
                     <div className='webdev_content_container'>
                         <img className='webdev_logo' alt='' src={bigLogo} />  
-                        <div className='webdev_headline'>WEB DEVELOPMENT SECTION HEADLINE</div>
-                        <div className='webdev_headline_2'>This is the secondary headline</div>
+                        <div className='webdev_headline'>Web Development</div>
+                        <div className='webdev_headline_2'>CAPTURE TRAFFIC EFFECTIVELY</div>
                         <div className='webdev_copy'>Main copy liquip commodo consectetur nisi esse nulla irure duis laboris.</div>
                     </div>
                 </div>
