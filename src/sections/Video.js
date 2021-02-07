@@ -1,22 +1,17 @@
 import React, { Component } from 'react';
 import './video.css';
-import mainBgImage from './images-sections/BgMain.jpg';
-import bigLogo from './images-sections/wings-logo.png';
+import backgroundVideo from './video-sections/bg-video-01.mp4';
 
 export default class Video extends Component {
     render() {
-        let style = {
-            backgroundImage: `url(${mainBgImage})`
-        }
         return (
             <div className='video_section' id='video'>
-                <div style={style} className='video_section_background' >
-                    <div className='video_content_container'>
-                        <img className='video_logo' alt='' src={bigLogo} />  
-                        <div className='video_headline'>VIDEO SECTION HEADLINE</div>
-                        <div className='video_headline_2'>This is the secondary headline</div>
-                        <div className='video_copy'>Main copy liquip commodo consectetur nisi esse nulla irure duis laboris.</div>
-                    </div>
+                <video  autoPlay loop muted id='back_video'>
+                        <source src={backgroundVideo} type='video/mp4' />                                           
+                </video>
+                <div className='video_section_layover' >           
+                        <div className='video_headline'>WE'LL ELEVATE YOUR STORY</div> 
+                        <div className='video_copy'>If a picture says a 1,000 words, <br />video elevates the story. </div>  
                 </div>
             </div>
         )
