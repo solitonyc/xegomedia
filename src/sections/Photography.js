@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './photography.css';
-import mainBgImage from './images-sections/bg-facebfly.jpg';
+import mainBgImage from './images-sections/bg-4.jpg';
 
 
 export default class Photography extends Component {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './branding.css';
-import mainBgImage from './images-sections/BgMain.jpg';
-// import bigLogo from './images-sections/wings-logo.png';
+import mainBgImage from './images-sections/bg-14.jpg';
+// import bigLogo from './images-sections/logo-wings.png';
 
 export default class Branding extends Component {
     render() {
