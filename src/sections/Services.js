@@ -16,7 +16,7 @@ export default class Services extends Component {
                             <div className='services_box'>
                                 <img className='services_icon' alt='' src={iconImage04} />
                                 <div className='services_box_headline'>Branding</div>
-                                <div className='services_box_text'>BRAND science goes well beyond cool logos.</div>
+                                <div className='services_box_text'>BRAND science goes well beyond creating cool logos.</div>
                             </div>
                             <div className='services_box'>
                                 <img className='services_icon' alt='' src={iconImage01} />
