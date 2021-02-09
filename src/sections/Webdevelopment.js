@@ -14,7 +14,7 @@ export default class Webdevelopment extends Component {
                     <div className='webdev_content_container'>
                         <div className='webdev_headline'>WEB DESIGN</div>
                         <div className='webdev_headline_2'>Capture Traffic Effectively</div>
-                        <div className='webdev_copy'>Main copy liquip commodo consectetur nisi esse nulla irure duis laboris.</div>
+                        <div className='webdev_copy'>Great video? Check. <br />Great photography? Check. <br />Brand fully crafted? Check. <br />Now what? </div>
                     </div>
                 </div>
             </div>
