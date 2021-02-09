@@ -11,10 +11,10 @@ export default class Hire extends Component {
         return (
             <div className='hire_section' id='hire'>
                 <div style={style} className='hire_section_background' >
-                    <div className='hire_content_container'>
-                        <img className='hire_logo' alt='' src={bigLogo} />  
+                    <div className='hire_content_container'>                       
                         <div className='hire_headline'>HIRE XEGO</div>
-                        <div className='hire_headline_2'>Contact Xego for a Consultation.</div>
+                        <img className='hire_logo' alt='' src={bigLogo} /> 
+                        <div className='hire_headline_2'>Contact Xego for a Consultation.</div>                        
                         <div className='hire_copy'><span id='bold_this'>Email:</span> sales@xegomedia.com<br /><span id='bold_this'>Phone:</span> (646) 403.7500</div>
                     </div>
                 </div>
