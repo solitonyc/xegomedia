@@ -76,7 +76,15 @@ export default class Navigation extends Component {
                     duration={500}
                     >WEB DEVELOPMENT</Link>
 
-                
+                <Link
+                    className="nav-links"
+                    activeClass="active"
+                    to="hire"
+                    spy={true}
+                    smooth={true}
+                    offset={-38}
+                    duration={500}
+                    >HIRE US</Link>
 
               
 

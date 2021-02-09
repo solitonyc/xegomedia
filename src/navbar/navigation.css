@@ -18,8 +18,8 @@
     font-family: 'Montserrat', sans-serif;
     font-size: .7rem;
     list-style: none;
-    padding: 1rem 1rem 1rem 1rem;
-    margin-right: 1.1rem;
+    padding: 1rem 1rem 1rem .75rem;
+    margin-right: .5rem;
 }   
 .nav-links-last {
     font-family: 'Montserrat', sans-serif;
