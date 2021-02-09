@@ -15,7 +15,7 @@ export default class Branding extends Component {
                         {/* <img className='branding_logo' alt='' src={bigLogo} />   */}
                         <div className='branding_headline'>BRANDING</div>
                         <div className='branding_headline_2'>Cultivate Lasting Impressions</div>
-                        <div className='branding_copy'>Main copy liquip commodo consectetur nisi esse nulla irure duis laboris.</div>
+                        <div className='branding_copy'>There's more to a BRAND, than coming up with a cool logo.</div>
                     </div>
                 </div>
             </div>
