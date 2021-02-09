@@ -14,7 +14,7 @@ export default class Photography extends Component {
                     <div className='photography_content_container'>                        
                         <div className='photography_headline'>PHOTOGRAPHY</div>
                         <div className='photography_headline_2'>Capture Lasting Moments</div>
-                        <div className='photography_copy'>Main copy liquip commodo consectetur nisi esse nulla irure duis laboris.</div>
+                        <div className='photography_copy'>Shape your BRAND using captivating photos and accent imagery.</div>
                     </div>
                 </div>
             </div>
