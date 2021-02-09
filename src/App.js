@@ -3,10 +3,11 @@ import React, {Component} from 'react';
 import Navigation from './navbar/Navigation';
 import Main from './sections/Main';
 import Services from './sections/Services';
+import Branding from './sections/Branding';
 import Video from './sections/Video';
 import Photography from './sections/Photography';
 import Webdevelopment from './sections/Webdevelopment';
-import Branding from './sections/Branding';
+import Hire from './sections/Hire';
 import Footer from './sections/Footer';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Video />
       <Photography />
       <Webdevelopment />
+      <Hire />
       <Footer /> 
      
     </div>
