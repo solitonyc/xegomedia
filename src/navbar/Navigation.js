@@ -37,6 +37,16 @@ export default class Navigation extends Component {
                     >SERVICES</Link>
                 
                 <Link
+                    className="nav-links-last"
+                    activeClass="active"
+                    to="branding"
+                    spy={true}
+                    smooth={true}
+                    offset={-38}
+                    duration={500}
+                    >BRANDING</Link>
+
+                <Link
                     className="nav-links"
                     activeClass="active"
                     to="video"
@@ -66,15 +76,7 @@ export default class Navigation extends Component {
                     duration={500}
                     >WEB DEVELOPMENT</Link>
 
-                <Link
-                    className="nav-links-last"
-                    activeClass="active"
-                    to="branding"
-                    spy={true}
-                    smooth={true}
-                    offset={-38}
-                    duration={500}
-                    >BRANDING</Link>
+                
 
               
 

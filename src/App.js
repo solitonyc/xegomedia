@@ -15,10 +15,10 @@ function App() {
       <Navigation />
       <Main />
       <Services />
+      <Branding />
       <Video />
       <Photography />
       <Webdevelopment />
-      <Branding />
       <Footer /> 
      
     </div>
