@@ -12,7 +12,7 @@ export default class Video extends Component {
                 <div className='video_section_layover' >           
                     <div className='video_headline'>VIDEO</div> 
                     <div className='video_headline_2'>Vividly Tell Your Story</div> 
-                    <div className='video_copy'>If a picture says a 1,000 words, <br />video elevates the story. </div>  
+                    <div className='video_copy'>If a picture says a 1,000 words, <br />then video elevates the story. </div>  
                 </div>
             </div>
         )
