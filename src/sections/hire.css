@@ -102,6 +102,40 @@
 
 /* ------------------------MEDIA QUERIES--------------------------*/
 
+/*--------------SMALL TABLET-------------*/
+@media screen and (max-width: 991.5px) and (min-width: 768px){    
+    .hire_section_background {
+        background-attachment: scroll;  
+    }
+    .hire_content_container {
+        min-width: 100vw;
+        min-height: 100vh;
+        background-color: rgba(0,0,0,.6);
+        padding: 0 0;
+    }
+    .hire_headline {
+        font-size: 4em;
+        line-height: 1em;        
+    }
+    .hire_headline_2 {  
+        font-size: 1.5em;   
+        letter-spacing: .17rem;
+        line-height: 1em;
+        margin: .15em 0;
+    }
+    .hire_copy {       
+        font-size: 1.2em;
+        letter-spacing: .05em;  
+        line-height: 1.4em;
+        margin: 1rem 0 0;      
+        max-width: 20rem;
+    }
+    .hire_logo {
+        width: 12rem;
+    }
+
+}
+
 /* -------------------- LARGE PHONE------------- */
 @media screen and (max-width: 767.5px) and (min-width: 480px){
     .hire_section_background {

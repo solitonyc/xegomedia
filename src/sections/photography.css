@@ -95,6 +95,40 @@
 
 /* ------------------------MEDIA QUERIES--------------------------*/
 
+/*-------------SMALL TABLET-------------*/
+@media screen and (max-width: 991.5px) and (min-width: 768px){    
+    .photography_section_background {
+        background-attachment: scroll;  
+    }
+    .photography_content_container {
+        min-width: 100vw;
+        min-height: 100vh;
+        background-color: rgba(0,0,0,.6);
+        padding: 0 0;
+    }
+    .photography_headline {
+        font-size: 4em;
+        line-height: 1em;        
+    }
+    .photography_headline_2 {  
+        font-size: 1.5em;   
+        letter-spacing: .17rem;
+        line-height: 1em;
+        margin: .15em 0;
+    }
+    .photography_copy {       
+        font-size: .9em;
+        letter-spacing: .05em;  
+        line-height: 1.2em;
+        margin: 1rem 0 0;      
+        max-width: 14rem;
+    }
+    .photography_logo {
+        width: 12rem;
+    }
+
+}
+
 /* -------------------- LARGE PHONE------------- */
 @media screen and (max-width: 767.5px) and (min-width: 480px){
     .photography_section_background {

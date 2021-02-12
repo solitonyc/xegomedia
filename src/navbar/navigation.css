@@ -43,6 +43,19 @@
 
 
 /*------------------MEDIA QUERIES-----------------*/
+@media screen and (max-width: 991.5px) and (min-width: 768px){    
+    .nav-bar {
+        position: fixed;
+    }
+    .nav-links, .nav-links-last {
+        display: none;
+    }
+    .nav_logo {
+        width: 5rem;
+        float: left;
+        padding-left: 1rem;
+    }
+}
 /*--------LARGE MOBILE----------*/
 @media screen and (max-width: 767.5px) and (min-width: 480px){
     .nav-bar {

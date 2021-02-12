@@ -74,6 +74,53 @@
 
 /* ------------------------MEDIA QUERIES--------------------------*/
 
+
+
+
+/* -------------------- SMALL TABLET ------------- */
+@media screen and (max-width: 991.5px) and (min-width: 768px){    
+    .video_section {    
+    
+        max-height: 31vh;
+    }
+    #back_video {
+        
+        width: 100vw;  
+        height: 100vh;                                                                                                                                      
+    }
+    .video_section_layover {
+        width: 70vw;
+        height: 15vh;
+    
+    }
+    .video_headline {
+        font-size: 4em;
+        line-height: 1.2em;  
+        letter-spacing: .5rem; 
+        text-align: center;     
+    }
+    .video_headline_2 {  
+        font-size: 1.5em;   
+        letter-spacing: .17rem;
+        line-height: .8em;
+        margin: .4em 0;
+        text-align: center;
+    }
+    .video_copy {       
+        font-size: .9em;
+        letter-spacing: .03em;  
+        line-height: 1.2em;
+        margin: .4rem 0 0;      
+        max-width: 16rem;
+        text-align: center;
+    }
+    .video_logo {
+        width: 10rem;
+    }
+
+}
+
+
 /* -------------------- LARGE PHONE------------- */
 @media screen and (max-width: 767.5px) and (min-width: 480px){
     .video_section {    

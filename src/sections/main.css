@@ -96,6 +96,40 @@
 
 
 /* ------------------------MEDIA QUERIES--------------------------*/
+/*--------------SMALL TABLET-------------*/
+@media screen and (max-width: 991.5px) and (min-width: 768px){    
+    .main_section_background {
+        background-attachment: scroll;  
+    }
+    .main_content_container {
+        min-width: 100vw;
+        min-height: 100vh;
+        background-color: rgba(0,0,0,.6);
+        padding: 0 0;
+    }
+    .main_headline {
+        font-size: 4em;
+        line-height: 1em;        
+    }
+    .main_headline_2 {  
+        font-size: 2em;   
+        letter-spacing: .17rem;
+        line-height: 1em;
+        margin: .15em 0;
+    }
+    .main_copy {       
+        font-size: .9em;
+        letter-spacing: .05em;  
+        line-height: 1.2em;
+        margin: 1rem 0 0;      
+        max-width: 18rem;
+    }
+    .main_logo {
+        width: 9rem;
+    }
+
+}
+
 
 /* -------------------- LARGE PHONE------------- */
 @media screen and (max-width: 767.5px) and (min-width: 480px){
