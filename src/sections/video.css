@@ -87,7 +87,7 @@
     .video_section_layover {
         width: 70vw;
         height: 15vh;
-    
+        background-color: rgba(0,0,0,0);
     }
     .video_headline {
         font-size: 4em;
@@ -130,7 +130,7 @@
     .video_section_layover {
         width: 70vw;
         height: 15vh;
-    
+        background-color: rgba(0,0,0,0);
     }
     .video_headline {
         font-size: 4em;
@@ -174,7 +174,7 @@
     .video_section_layover {
         width: 91vw;
         height: 22vh;
-    
+        background-color: rgba(0,0,0,0);
     }
     .video_headline {
         font-size: 2.1em;
@@ -218,7 +218,7 @@
     .video_section_layover {
         width: 82vw;
         height: 12vh;
-    
+        background-color: rgba(0,0,0,0);
     }
     .video_headline {
         font-size: 2.1em;
