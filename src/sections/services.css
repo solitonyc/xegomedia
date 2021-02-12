@@ -147,6 +147,7 @@
    
     .services_content_container {
         min-width: 90vw;
+        padding: 0;
     }
     .services_box_container {
         display: flex;
@@ -191,6 +192,7 @@
    
     .services_content_container {
         min-width: 100vw;
+        padding: 0;
     }
     .services_box_container {
         display: flex;

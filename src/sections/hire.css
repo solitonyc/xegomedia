@@ -97,3 +97,76 @@
     font-size: 1em;
     font-weight: 900;
 }
+
+
+
+/* ------------------------MEDIA QUERIES--------------------------*/
+
+/* -------------------- LARGE PHONE------------- */
+@media screen and (max-width: 767.5px) and (min-width: 480px){
+    .hire_section_background {
+        background-attachment: scroll;  
+    }
+    .hire_content_container {
+        min-width: 100vw;
+        min-height: 100vh;
+        background-color: rgba(0,0,0,.6);
+        padding: 0 0;
+    }
+    .hire_headline {
+        font-size: 2.2em;
+        line-height: 1em;        
+    }
+    .hire_headline_2 {  
+        font-size: 1.1em;   
+        letter-spacing: .17rem;
+        line-height: 1em;
+        margin: .15em 0;
+    }
+    .hire_copy {       
+        font-size: .9em;
+        letter-spacing: .05em;  
+        line-height: 1.2em;
+        margin: 1rem 0 0;      
+        max-width: 14rem;
+    }
+    .hire_logo {
+        width: 12rem;
+    }
+
+}
+   
+
+/* -------------------- SMALL PHONES ------------- */
+@media screen and (max-width: 479.5px) and (min-width: 319px){  
+    .hire_section_background {
+        background-attachment: scroll;  
+    }
+    .hire_content_container {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0,0,0,.6);
+        padding: 0 0;
+    }
+    .hire_headline {
+        font-size: 2.1em;
+        line-height: 1em;        
+    }
+    .hire_headline_2 {  
+        font-size: 1em;   
+        letter-spacing: .17rem;
+        line-height: 1em;
+        margin: .15em 0;
+    }
+    .hire_copy {       
+        font-size: .9em;
+        letter-spacing: .03em;  
+        line-height: 1.5em;
+        margin: .6rem 0 0;      
+        max-width: 16rem;
+    }
+    .hire_logo {
+        width: 10rem;
+    }
+
+}

@@ -41,12 +41,34 @@
     padding-left: 1.2rem;
 }
 
-@media screen and (max-width: 800px) {
+
+/*------------------MEDIA QUERIES-----------------*/
+/*--------LARGE MOBILE----------*/
+@media screen and (max-width: 767.5px) and (min-width: 480px){
     .nav-bar {
         position: fixed;
     }
     .nav-links, .nav-links-last {
         display: none;
+    }
+    .nav_logo {
+        width: 5rem;
+        float: left;
+        padding-left: .5rem;
+    }
+}
+/*--------SMALL MOBILE----------*/
+@media screen and (max-width: 479.5px) and (min-width: 319px){  
+    .nav-bar {
+        position: fixed;
+    }
+    .nav-links, .nav-links-last {
+        display: none;
+    }
+    .nav_logo {
+        width: 4rem;
+        float: left;
+        padding-left: .5rem;
     }
 
     

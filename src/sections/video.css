@@ -67,3 +67,96 @@
     width: 40rem;
     z-index: 30;
 }
+
+
+
+
+
+/* ------------------------MEDIA QUERIES--------------------------*/
+
+/* -------------------- LARGE PHONE------------- */
+@media screen and (max-width: 767.5px) and (min-width: 480px){
+    .video_section {    
+    
+        max-height: 100vh;
+    }
+    #back_video {
+   
+        width: 100vw;  
+        height: 100vh;                                                                                                                                      
+    }
+    .video_section_layover {
+        width: 90vw;
+        height: 65vh;
+    
+    }
+    .video_headline {
+        font-size: 2.1em;
+        line-height: 1.2em;  
+        letter-spacing: .5rem; 
+        text-align: center;     
+    }
+    .video_headline_2 {  
+        font-size: 1em;   
+        letter-spacing: .17rem;
+        line-height: .8em;
+        margin: .4em 0;
+        text-align: center;
+    }
+    .video_copy {       
+        font-size: .9em;
+        letter-spacing: .03em;  
+        line-height: 1.2em;
+        margin: .4rem 0 0;      
+        max-width: 16rem;
+        text-align: center;
+    }
+    .video_logo {
+        width: 10rem;
+    }
+
+}
+   
+
+/* -------------------- SMALL PHONES ------------- */
+@media screen and (max-width: 479.5px) and (min-width: 319px){  
+    .video_section {    
+    
+        max-height: 31vh;
+    }
+    #back_video {
+   
+        width: 100vw;  
+        height: 100vh;                                                                                                                                      
+    }
+    .video_section_layover {
+        width: 82vw;
+        height: 12vh;
+    
+    }
+    .video_headline {
+        font-size: 2.1em;
+        line-height: 1.2em;  
+        letter-spacing: .5rem; 
+        text-align: center;     
+    }
+    .video_headline_2 {  
+        font-size: 1em;   
+        letter-spacing: .17rem;
+        line-height: .8em;
+        margin: .4em 0;
+        text-align: center;
+    }
+    .video_copy {       
+        font-size: .9em;
+        letter-spacing: .03em;  
+        line-height: 1.2em;
+        margin: .4rem 0 0;      
+        max-width: 15rem;
+        text-align: center;
+    }
+    .video_logo {
+        width: 10rem;
+    }
+
+}
