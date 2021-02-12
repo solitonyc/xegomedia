@@ -9,7 +9,7 @@
     background-image: linear-gradient(to right, rgb(18, 18, 18), rgb(0, 0, 0));
     color: white;
     padding-top: .5rem;
-    padding-right: 2.2rem;
+    
     padding-bottom: .4rem;
     z-index: 1;
 }
@@ -43,6 +43,22 @@
 
 
 /*------------------MEDIA QUERIES-----------------*/
+/*-----------LARGE TABLET------------*/
+@media screen and (max-width: 1200px) and (min-width: 992px) {   
+    .nav-bar {
+        position: fixed;
+    }
+    .nav-links, .nav-links-last {
+        display: none;
+    }
+    .nav_logo {
+        width: 5rem;
+        float: left;
+        padding-left: 1rem;
+    }
+
+}
+/*---------SMALL TABLET----------*/
 @media screen and (max-width: 991.5px) and (min-width: 768px){    
     .nav-bar {
         position: fixed;
