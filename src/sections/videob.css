@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,900&display=swap');
+
+.videob_section {    
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.videob_section_background {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;  
+}
+.videob_content_container {
+    margin: 0 auto;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    width: 60vw;
+    background-color: rgba(0,0,0,.4);
+    padding: 3em;
+}
+.videob_headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 6em;
+    color: rgb(255,255,255);
+    letter-spacing: .25rem;
+    line-height: 1em;
+    margin: .25em 0;
+    text-shadow: rgba(0,0,0,1) .04em .04em;
+    text-align: center;
+}
+.videob_headline_2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    color: rgb(255,255,255);
+    letter-spacing: .25rem;
+    line-height: 1em;
+    margin: .15em 0;
+    text-shadow: rgba(0,0,0,1) .04em .04em;
+    text-align: center;
+}
+.videob_copy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    letter-spacing: .05em;
+    color: rgb(255,255,255);
+    /* letter-spacing: .08rem; */
+    line-height: 1.2em;
+    margin: 1.5em 0 0;
+    text-shadow: rgba(0,0,0,1) .05em .05em;
+    max-width: 19em;
+    text-align: center;
+}
+.videob_button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    font-weight: 800;
+    /* background-color: rgb(76, 210, 219); */
+    background-image: linear-gradient(#13c1df, #0f3381);
+    border-radius: 1em;
+    border: 1px rgb(0,0,0) solid;
+    color: rgb(255,255,255);
+    transition: all 0.3s;
+    margin: 1.75em 0;
+    line-height: 3;
+    text-decoration: none;
+    text-align: center;
+    width: 14em;
+    
+}
+.videob_button:hover {
+    background:rgb(255,255,255);
+    color: rgb(0,0,0); 
+    cursor: pointer;
+}
+.videob_logo {
+    width: 30rem;
+}
+
+
+
+/* ------------------------MEDIA QUERIES--------------------------*/
+/*--------------SMALL TABLET-------------*/
+@media screen and (max-width: 991.5px) and (min-width: 768px){    
+    .videob_section_background {
+        background-attachment: scroll;  
+    }
+    .videob_content_container {
+        min-width: 100vw;
+        min-height: 100vh;
+        background-color: rgba(0,0,0,.6);
+        padding: 0 0;
+    }
+    .videob_headline {
+        font-size: 4em;
+        line-height: 1em;        
+    }
+    .videob_headline_2 {  
+        font-size: 2em;   
+        letter-spacing: .17rem;
+        line-height: 1em;
+        margin: .15em 0;
+    }
+    .videob_copy {       
+        font-size: .9em;
+        letter-spacing: .05em;  
+        line-height: 1.2em;
+        margin: 1rem 0 0;      
+        max-width: 18rem;
+    }
+    .videob_logo {
+        width: 9rem;
+    }
+
+}
+
+
+/* -------------------- LARGE PHONE------------- */
+@media screen and (max-width: 767.5px) and (min-width: 480px){
+    .videob_section_background {
+        background-attachment: scroll;  
+    }
+    .videob_content_container {
+        min-width: 100vw;
+        min-height: 100vh;
+        background-color: rgba(0,0,0,.4);
+        padding: 0 0;
+    }
+    .videob_headline {
+        font-size: 2.2em;
+        line-height: 1em;        
+    }
+    .videob_headline_2 {  
+        font-size: 1.1em;   
+        letter-spacing: .17rem;
+        line-height: 1em;
+        margin: .15em 0;
+    }
+    .videob_copy {       
+        font-size: .9em;
+        letter-spacing: .05em;  
+        line-height: 1.2em;
+        margin: 1rem 0 0;      
+        max-width: 18rem;
+    }
+    .videob_logo {
+        width: 9rem;
+    }
+
+}
+   
+
+/* -------------------- SMALL PHONES ------------- */
+@media screen and (max-width: 479.5px) and (min-width: 319px){  
+    .videob_section_background {
+        background-attachment: scroll;  
+    }
+    .videob_content_container {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0,0,0,.4);
+        padding: 0 0;
+    }
+    .videob_headline {
+        font-size: 2.1em;
+        line-height: 1em;        
+    }
+    .videob_headline_2 {  
+        font-size: 1em;   
+        letter-spacing: .17rem;
+        line-height: 1em;
+        margin: .15em 0;
+    }
+    .videob_copy {       
+        font-size: .9em;
+        letter-spacing: .03em;  
+        line-height: 1.2em;
+        margin: .6rem 0 0;      
+        max-width: 16rem;
+    }
+    .videob_logo {
+        width: 8rem;
+    }
+
+}

@@ -4,7 +4,7 @@ import Navigation from './navbar/Navigation';
 import Main from './sections/Main';
 import Services from './sections/Services';
 import Branding from './sections/Branding';
-import Video from './sections/Video';
+import Video from './sections/VideoB';
 import Photography from './sections/Photography';
 import Webdevelopment from './sections/Webdevelopment';
 import Hire from './sections/Hire';
