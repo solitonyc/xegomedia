@@ -98,6 +98,7 @@
 /* ------------------------MEDIA QUERIES--------------------------*/
 /*--------------SMALL TABLET-------------*/
 @media screen and (max-width: 991.5px) and (min-width: 768px){    
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,900&display=swap');
     .videob_section_background {
         background-attachment: scroll;  
     }
@@ -133,6 +134,7 @@
 
 /* -------------------- LARGE PHONE------------- */
 @media screen and (max-width: 767.5px) and (min-width: 480px){
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,900&display=swap');
     .videob_section_background {
         background-attachment: scroll;  
     }
@@ -168,6 +170,7 @@
 
 /* -------------------- SMALL PHONES ------------- */
 @media screen and (max-width: 479.5px) and (min-width: 319px){  
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,900&display=swap');
     .videob_section_background {
         background-attachment: scroll;  
     }
