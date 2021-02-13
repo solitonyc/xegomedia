@@ -108,16 +108,19 @@
         padding: 0 0;
     }
     .main_headline {
+        font-family: 'Playfair Display', serif;
         font-size: 4em;
         line-height: 1em;        
     }
     .main_headline_2 {  
+        font-family: 'Playfair Display', serif;
         font-size: 2em;   
         letter-spacing: .17rem;
         line-height: 1em;
         margin: .15em 0;
     }
-    .main_copy {       
+    .main_copy {  
+        font-family: 'Montserrat', sans-serif;     
         font-size: .9em;
         letter-spacing: .05em;  
         line-height: 1.2em;
