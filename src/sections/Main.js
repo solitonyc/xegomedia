@@ -16,7 +16,7 @@ export default class Main extends Component {
                         <img className='main_logo' alt='' src={bigLogo} />  
                         <div className='main_headline'>XEGO MEDIA</div>
                         <div className='main_headline_2'>Leave Vivid Impressions!</div>
-                        <div className='main_copy'>We produce captivating video, photography, and web site designs in order to leave a lasting impressions of your BRAND.</div>
+                        <div className='main_copy'>We produce captivating video, photography, and web site designs in order to leave a lasting impression of your BRAND.</div>
                     </div>
                 </div>
                 
