@@ -3,11 +3,14 @@ import './main.css';
 import mainBgImage from './images-sections/bg-10.jpg';
 import bigLogo from './images-sections/logo-wings.png';
 
+
 export default class Main extends Component {
     render() {
         let style = {
             backgroundImage: `url(${mainBgImage})`
         }
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"></link>
         return (
             <div className='main_section' id='main'>
                 <div style={style} className='main_section_background' >
