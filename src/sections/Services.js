@@ -11,7 +11,6 @@ export default class Services extends Component {
             <div className='services_section' id='services'>
                 <div className='services_background'>
                     <div className='services_content_container'>
-                        <div className='services_headline'>Services</div>
                         <div className='services_box_container'>
                             <div className='services_box'>
                                 <img className='services_icon' alt='' src={iconImage04} />
@@ -30,7 +29,7 @@ export default class Services extends Component {
                             </div>
                             <div className='services_box'>
                                 <img className='services_icon' alt='' src={iconImage03} />
-                                <div className='services_box_headline'>Web Development</div>
+                                <div className='services_box_headline'>Web Design</div>
                                 <div className='services_box_text'>Let's convert your gained attention into valuable traffic.</div>
                             </div>
                            
