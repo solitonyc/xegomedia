@@ -14,22 +14,22 @@ export default class Services extends Component {
                         <div className='services_box_container'>
                             <div className='services_box'>
                                 <img className='services_icon' alt='' src={iconImage04} />
-                                <div className='services_box_headline'>Branding</div>
-                                <div className='services_box_text'>BRAND science goes well beyond creating cool logos.</div>
+                                <div className='services_box_headline'>BRANDING</div>
+                                <div className='services_box_text'>The science of Branding goes well beyond just creating cool logos.</div>
                             </div>
                             <div className='services_box'>
                                 <img className='services_icon' alt='' src={iconImage01} />
-                                <div className='services_box_headline'>Video</div>
-                                <div className='services_box_text'>Video elevates your BRAND's story like no other medium.</div>
+                                <div className='services_box_headline'>VIDEO</div>
+                                <div className='services_box_text'>Video communicates your BRAND's story like no other medium.</div>
                             </div>
                             <div className='services_box'>
                                 <img className='services_icon' alt='' src={iconImage02} />
-                                <div className='services_box_headline'>Photography</div>
-                                <div className='services_box_text'>Photography and imagery shapes your BRAND.</div>
+                                <div className='services_box_headline'>PHOTOGRAPHY</div>
+                                <div className='services_box_text'>Photography burns your BRAND into the public's memory.</div>
                             </div>
                             <div className='services_box'>
                                 <img className='services_icon' alt='' src={iconImage03} />
-                                <div className='services_box_headline'>Web Design</div>
+                                <div className='services_box_headline'>WEB DESIGN</div>
                                 <div className='services_box_text'>Let's convert your gained attention into valuable traffic.</div>
                             </div>
                            

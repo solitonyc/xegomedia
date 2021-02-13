@@ -62,7 +62,7 @@
     max-width: 80vw;
 }
 .services_box {
-    border: 1px solid rgb(65, 64, 64);
+    
     border-radius: .5rem;
     margin: 1rem;
     padding: 1rem;
@@ -78,7 +78,7 @@
 }
 .services_box_headline {
     font-family: 'Playfair Display', serif;
-    font-size: 1.7em;
+    font-size: 2.2em;
     font-weight: 400;
     letter-spacing: 0;
     line-height: .2em;
@@ -90,11 +90,11 @@
 }
 .services_box_text {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 400;
     letter-spacing: 0;
     word-spacing: .25em;
-    color: rgb(255,255,255);
+    color: rgb(182, 179, 179);
     max-width: 20em;
     padding: 1rem;
     text-align: center;
@@ -130,12 +130,12 @@
         padding: 1rem;
     }
     .services_box_headline {
-        font-size: 2.7em;
+        font-size: 2em;
         line-height: 1em;
         padding: 1rem;        
     }   
     .services_box_text {
-        font-size: 1em;
+        font-size: 1.2em;
         padding: .5rem;
         width: 18rem;
     }
@@ -170,12 +170,12 @@
         padding: 1rem;
     }
     .services_box_headline {
-        font-size: 2em;
+        font-size: 1.7em;
         line-height: 1em;
         padding: 1rem 0 .1rem;        
     }   
     .services_box_text {
-        font-size: 1.3em;
+        font-size: 1.1em;
         padding: .8rem;
     }
 
