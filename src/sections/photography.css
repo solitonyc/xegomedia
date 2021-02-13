@@ -37,7 +37,7 @@
 }
 .photography_headline {
     font-family: 'Playfair Display', serif;
-    font-size: 6em;
+    font-size: 5em;
     font-weight: 900;
     color: rgb(255,255,255);
     letter-spacing: .25rem;
@@ -48,7 +48,7 @@
 }
 .photography_headline_2 {
     font-family: 'Playfair Display', serif;
-    font-size: 3em;
+    font-size: 2.7em;
     font-weight: 700;
     font-style: italic;
     color: rgb(255,255,255);
@@ -68,7 +68,7 @@
     line-height: 1.2em;
     margin: 1.5em 0 0;
     text-shadow: rgba(0,0,0,1) .05em .05em;
-    max-width: 19em;
+    max-width: 22em;
     text-align: center;
 }
 .photography_button {
