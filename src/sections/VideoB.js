@@ -10,7 +10,7 @@ export default class VideoB extends Component {
             backgroundImage: `url(${videobBgImage})`
         }
         return (
-            <div className='videob_section' id='videob'>
+            <div className='videob_section' id='video'>
                 <div style={style} className='videob_section_background' >
                     <div className='videob_content_container'>
                         <div className='videob_headline'>VIDEO</div>
