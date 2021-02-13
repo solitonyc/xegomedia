@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Playfair+Display:wght@700;900&display=swap');
 
 .webdev_section {    
     display: flex;
@@ -38,6 +38,7 @@
 .webdev_headline {
     font-family: 'Playfair Display', serif;
     font-size: 6em;
+    font-weight: 900;
     color: rgb(255,255,255);
     letter-spacing: .25rem;
     line-height: 1em;
@@ -48,6 +49,8 @@
 .webdev_headline_2 {
     font-family: 'Playfair Display', serif;
     font-size: 3em;
+    font-weight: 700;
+    font-style: italic;
     color: rgb(255,255,255);
     letter-spacing: .25rem;
     line-height: 1em;
@@ -57,14 +60,15 @@
 }
 .webdev_copy {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
+    font-weight: 400;
     letter-spacing: .05em;
     color: rgb(255,255,255);
     /* letter-spacing: .08rem; */
-    line-height: 1.3em;
+    line-height: 1.2em;
     margin: 1.5em 0 0;
     text-shadow: rgba(0,0,0,1) .05em .05em;
-    max-width: 18em;
+    max-width: 19em;
     text-align: center;
 }
 .webdev_button {
@@ -183,7 +187,7 @@
     }
     .webdev_headline_2 {  
         font-size: 1em;   
-        letter-spacing: .17rem;
+        letter-spacing: .12rem;
         line-height: 1em;
         margin: .15em 0;
     }
@@ -192,7 +196,7 @@
         letter-spacing: .03em;  
         line-height: 1.2em;
         margin: .6rem 0 0;      
-        max-width: 12rem;
+        max-width: 16rem;
     }
     .webdev_logo {
         width: 10rem;
