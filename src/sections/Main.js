@@ -8,7 +8,7 @@ export default class Main extends Component {
     render() {
         let style = {
             backgroundImage: `url(${mainBgImage})`
-        }
+        }   
         return (
             <div className='main_section' id='main'>
                 <div style={style} className='main_section_background' >
