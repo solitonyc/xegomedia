@@ -12,10 +12,10 @@ export default class Main extends Component {
         return (
             <div className='main_section' id='main'>
                 <div style={style} className='main_section_background' >
-                    <div className='main_content_container'>
-                        <img className='main_logo' alt='' src={bigLogo} />  
+                    <div className='main_content_container'>                         
                         <div className='main_headline'>XEGO MEDIA</div>
                         <div className='main_headline_2'>Leave Vivid Impressions!</div>
+                        <img className='main_logo' alt='' src={bigLogo} /> 
                         <div className='main_copy'>We produce captivating video, photography, and web site designs in order to leave a lasting impression of your BRAND.</div>
                     </div>
                 </div>
