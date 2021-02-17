@@ -97,6 +97,43 @@
     width: 40rem;
 }
 
+.common_button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+    background-image: linear-gradient(rgb(19,193,223), rgb(16, 46, 110));
+    border-radius: .5em;
+    border: 1px rgb(0,0,0) solid;
+    color: rgb(255,255,255);
+    transition: all 0.3s;
+    margin: 2rem 0 4rem;
+    padding: .5rem;
+    line-height: 3;
+    text-decoration: none;
+    text-align: center;
+    width: 14em;    
+}
+.common_button:hover {
+    background-image: linear-gradient(rgb(16,46,110), rgb(15, 65, 173));
+    color: rgb(255,255,255);
+    border: 1px rgb(0,0,0) solid;
+}
+.common_button:active {
+    background-image: linear-gradient(rgb(15, 143, 47), rgb(15,143,47));
+    color: rgb(255, 255, 255);
+    border: 1px rgb(0, 0, 0) solid;
+}
+.button_copy {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 1.4em;
+    color: rgb(0,0,0);
+    letter-spacing: .07rem;
+    line-height: 1.1em;
+    margin: 0 0;
+    max-width: 27em;
+}
+
 /* ------------------------MEDIA QUERIES--------------------------*/
 
 /*-------------SMALL TABLET-------------*/
